@@ -1,0 +1,550 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+p,a,div,box,h1,h2,h3,h5,h6,span,input,textarea,label,ul,li{
+    font-family: sans-serif;
+}
+ /************************** header section css here *********************/
+ .user-info__name{
+    font-family: sans-serif;
+ }
+ .Header-section {
+    background-color: #ffffff !important;
+    color: rgb(189 189 189) !important;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+    margin-bottom: 37px;
+  }
+  .dashboard-header-section .dashboard-header-list {
+    display: flex;
+    position: relative;
+}
+.dashboard-header-listitemicon {
+    min-width: auto !important;
+    padding-right: 11px !important;
+}
+.dashboard-header-listitem {
+    display: contents !important;
+}
+
+.Header-section .Mui-selected.dashboard-header-listitembutton:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    border: 3px solid #3564f6;
+    border-radius: 6px;
+    top: 43px;
+    left: 77px;
+}
+
+.Mui-selected.dashboard-header-listitembutton {
+    background-color: transparent !important;
+}
+.Mui-selected.dashboard-header-listitembutton .dashboard-header-listitemicon,.Mui-selected.dashboard-header-listitembutton .dashboard-header-listitemtext span{
+color: #3366ff;
+font-weight: 600;
+}
+
+
+/************************** header section css here *********************/
+
+/************************** Dashboard page section **********************/
+.Dashboard-page-box {
+    padding: 50px 18px 14px 55px;
+}
+.Dashboard-page-box .Dashboard-page-date-section .Dashboard-page-date-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a4848;
+    font-family: sans-serif;
+}
+.Dashboard-page-button-section .Dashboard-one-button-section {
+    border: 2px solid #3366ff;
+    padding: 10px 40px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #3366ff;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.Dashboard-page-button-section .Dashboard-one-button-section:hover{
+    border: 2px solid #3366ff !important;
+}
+
+.Dashboard-page-button-section .Dashboard-two-button-section{
+    border: 2px solid #3366ff;
+    padding: 10px 60px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    background-color:#3366ff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+.Dashboard-page-button-section .Dashboard-two-button-section:hover{
+    background-color:#2f5ce6 !important; 
+    box-shadow:none !important;
+}
+.Dashboard-page-button-section .Dashboard-two-button-section .MuiSvgIcon-root {
+    padding-right: 10px;
+}
+.Dashboard-page-grid .Dashboard-page-section-grid {
+    padding-bottom: 37px;
+}
+/************************** Dashboard page section **********************/
+
+/************************** upcoming job page ***************************/
+/* .upcoming-jobs-section {
+    box-shadow: 4px 7px 8px 1px rgba(0,0,0,0.2), 4px 8px 7px 0px rgba(0,0,0,0.14), 4px 6px 7px 7px rgba(0,0,0,-0.88) !important;
+    background-color: #fff;
+    
+} */
+
+
+.card-header-heading {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 14px !important;
+}
+.card-header-heading .MuiCardHeader-content span{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+.incomingjoblast {
+    font-size: 13px !important;
+    font-family: sans-serif !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    padding: 8px 11px 21px 10px;
+    
+}
+.card-header-heading .filter-section-icon {
+    color: #3366ff;
+}
+
+.job-searching-grid .job-secaring-list .joblistitemname {
+    padding: 14px 16px;
+    text-align: justify;
+    border-radius: 10px 10px;
+    margin-bottom: 11px;
+    box-shadow: 3px 3px 3px #c5c5c5;
+    color: #fff !important;
+}
+.job-searching-grid .job-secaring-list .backgroundone {
+    background-color: #ff9966;
+}
+ .backgroundtwo {
+    background-color: #6666ff !important;
+}
+.backgroundthree {
+    background-color: #66cccc !important;
+}
+.job-searching-grid-inner {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: bisque;
+    background-color: #ff9966;
+    color: #ffff;
+    padding: 0px 12px;
+    margin: 10px 0px;
+}
+.job-secaring-list li {
+    padding-right: 0;
+}
+.job-searching-grid-inner .summary-box__info_section .summary-box__info__title .jobidtitle {
+    font-size: 15px;
+}
+.job-searching-grid-inner .job-secaring-list li .first-letf-side span {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+}
+.job-secaring-list .list-avatar-img {
+    text-align: -webkit-center;
+}
+.job-searching-grid .job-secaring-list .joblistitemname span,.job-searching-grid .job-secaring-list .joblistitemname .MuiListItemText-secondary {
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+.job-searching-grid-inner .job-secaring-list li .first-letf-side p span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    padding-right: 0;
+    padding-left: 16px;
+}
+.job-searching-grid .jobsupdating {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 5px 2px;
+    font-size: 11px;
+    padding: 6px 11px !important;
+    border-radius: 8px;
+    background-color: transparent;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-transform: capitalize;
+}
+.incoming-job-page-card-pages {
+    background: transparent;
+    border: none;
+    box-shadow: none !important;
+}
+.incoming-job-page-card-pages .incoming-job-box {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.incoming-job-page-card-pages .incoming-job-box .incoming-job-box-list .incoming-job-page-boxes {
+    padding: 8px 11px;
+    width: 100%;
+    height: auto;
+}
+/************************** upcoming job page ***************************/
+
+
+/**************************  invoing page ***************************/
+.invoing-card-part-grid{
+    padding: 0 !important;
+}
+.invoing-page-section .card-header .MuiCardHeader-content {
+    padding: 12px 10px;
+}
+.data-item-details-list .data-item-details-list-one {
+    padding: 16px 15px;
+    width: 100%;
+    height: 430px;
+}
+.dashboardbottom-section {
+    padding-top: 5px;
+}
+.todaysseats-box-section .card-header-heading {
+    padding-bottom: 23px !IMPORTANT;
+}
+.todaysseats-box-section .todaysseats-box-sectionlistitem .todaysseats-box-sectionlisttypo span {
+    font-size: 14px !important;
+    text-transform: capitalize;
+    font-weight: 400 !important;
+    line-height: 18px;
+}
+.todaysseats-box-section .todaysseats-box-sectionlistitem {
+    padding: 0px 2px;
+}
+.incomingjoblastDivider {
+    margin: 0 auto !important;
+    margin-bottom: 25px !important;
+}
+.upcoming-jobs-section {
+    background: transparent;
+    box-shadow: none !important;
+}
+.Boxshadownoneforbox .box {
+    box-shadow: none !important;
+    background: transparent;
+}
+/* .overlistitem-sectionbox .overallcard-box {
+    width: 100%;
+    box-shadow: none;
+    min-height: 156px;
+} */
+.overlistitem-sectionbox .overallcard-box {
+    padding: 20px 20px 20px 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    height: 97px;
+    width: 100%;
+}
+.overlistitem-sectionbox {
+    padding: 10px !IMPORTANT;
+}
+.overlistitem-sectionbox .overallcard-box .overlistitem-section-boxoses .overlistitem-section-box-in {
+    padding-top: 9px;
+    font-size: 12px;
+    color: #5d5d5d;
+    font-weight: 400;
+    text-align: center;
+}
+.overlistitem-section-boxesb {
+    justify-content: flex-start !important;
+}
+
+.overlistitem-sectionbox .overallcard-box .overall-list__item__icon {
+    width: 50px;
+    margin-right: 20px;
+}
+.overlistitem-sectionbox .overallcard-box i {
+    font-size: 20px;
+}
+.Heading.Heading--m {
+    font-family: sans-serif;
+}
+/************************** invoing page ***************************/
+
+.Dashboard-page-section-box-md {
+    padding: 10px;
+}
+.Dashboard-page-section-box-md .box {
+    min-height: 420px;
+    height: 420px;
+}
+.overlistitem-section-boxoses .boxoses-title {
+    font-size: 26px;
+     padding: 5px 6px; 
+    font-family: sans-serif;
+}
+
+
+.Todaysstats-boxes-section .todays-heading-section {
+    background: #f3f4fa;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+
+.divider {
+    border-bottom: 1px solid #ddd;
+}
+.list-of-todays-item-section {
+    height: 300px;
+    overflow-x: scroll;
+}
+.CircularProgressbarWithChildren .CircularProgressbar-chart {
+    padding-top: 32px;
+    font-size: 25px;
+    font-weight: 600;
+}
+path.CircularProgressbar-trail {
+    stroke: #f3f4fa !important;
+}
+.UnAssignedJobcard-header-sectiongrid .UnAssignedJobcard-header-section .UnAssignedJob-first-heading {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.UnAssignedJobcard-header-sectiongrid .UnAssignedJobcard-header-section .UnAssignedJob-first-heading-listitem {
+    padding-left: 0;
+}
+.UnAssignedJobcard-header-sectiongrid .UnAssignedJobcard-header-section .UnAssignedJob-first-heading-listitem .UnAssignedJob-first-heading-button {
+    padding: 0px;
+}
+.UnAssignedJobcard-header-sectiongrid .UnAssignedJobcard-header-section .UnAssignedJob-first-heading-listitem .MuiListItemSecondaryAction-root{
+    right: -26px;
+    top: 29px;
+}
+.UnAssignedJobcard-header-sectiongrid .UnAssignedJobcard-header-section .UnAssignedJob-first-heading-listitem .MuiListItemSecondaryAction-root .filter-section-icon {
+    color: #3564f6;
+}
+.UnAssignedJobcard-header-sectiongrid .UnAssignedJobcard-header-section .UnAssignedJob-first-heading-listitem .MuiListItemSecondaryAction-root .filter-section-icon .filter-section-iconies {
+    font-size: 33px;
+}
+.UnAssignedJobcard-searching-grid-box {
+    padding: 14px 16px;
+    border-radius: 13px;
+    border: 1px solid #f3f4fa;
+    box-shadow: 2px 2px 2px 2px #f3f4fa;
+    margin-bottom: 8px !important;
+}
+.UnAssignedJobcard-heading-updating {
+    color: #333 !important;
+    box-shadow: none !important;
+    background: #f3f4fa !important;
+    padding: 10px 20px !important;
+}
+.Medicallistavataimg {
+    float: right;
+    color: #3564f6;
+}
+.Medicallistavataimg .listavataimg-ServicesIcon {
+    font-size: 30px !important;
+    color: #3564f6;
+}
+.UnAssignedJobcard-jobidbox {
+    font-size: 12px !important;
+    color: #968f8f !important;
+    text-transform: capitalize !important;
+}
+.UnAssignedJobcard-jobidtitle {
+    font-size: 15px !important;
+    padding-top: 9px !important;
+    font-weight: 500 !important;
+    color: #555050 !important;
+    text-transform: capitalize !important;
+}
+.UnAssignedJobcard-header-section {
+    border-bottom: 1px solid #f3f4fa;
+    margin-bottom: 9px;
+}
+
+/* ===============rightnav====================== */
+
+.rightnavigationboxdrawer {
+    width: 50%;
+    left: auto !important;
+    top: 155px !important;
+}
+/* .rightnavigationboxdrawer .MuiBackdrop-root {
+    width: 50%;
+    left: auto !important;
+    top: 27px !important;
+    background: transparent !important;
+} */
+.rightnavigationboxdrawer .MuiDrawer-paper {
+    width: 40% !important;
+    padding: 14px 27px !important;
+    top: 27px !important;
+    border-radius: 30px !important;
+    background-color: #fff !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+.productreviewformfiled label.label {
+    font-size: 15px;
+    color: #757575;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.productreviewformfiled .productreviewformfiledcontrol .input,.productreviewformfiled .productreviewformfiledcontrol select {
+    border: 0px;
+    background: #f3f4fa;
+}
+.productreviewformfiled .productreviewformfiledcontrol {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.heading-personal-information {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="text" i],input[type="number" i],select,.productreviewformfiledcontrol .text-emptyboxes,option{
+    font-size: 15px;
+    width: 100%;
+    background: #f3f4fa;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.productreviewformfiledcontrol .text-emptyboxes {
+    width: 100%;
+    height: 149px !important;
+    margin-top: 10px;
+}
+.list-tiemaction {
+    width: 100%;
+}
+.list-tiemaction .ListItem-list-tiemactionid {
+    text-align: center;
+}
+.ListItem-list-tiemactionlisticon .ListItem-list-tiemactiondelect {
+    color: red;
+}
+.ListItem-list-tiemactionlisticon,.ListItem-list-tiemactionbutton {
+    background: #f3f4fa !important;
+    text-align: center !important;
+    width: auto !important;
+    margin: 0 auto !important;
+    display: inline-block !important;
+    padding: 10px !important;
+    border-radius: 11px !important;
+}
+.ListItem-list-tiemactionbutton .ListItem-list-tiemactionicon {
+    color: #3564f6;
+}
+:focus-visible {
+    outline: none;
+}
+.ListItem-list-tiemactionlistbutton:hover{
+    -webkit-text-decoration: none !important;
+    text-decoration: none !important;
+    background-color: transparent  !important;
+}
+.button-boxes-product-page {
+    padding: 48px 2px 9px 5px;
+    margin-bottom: 5% !important;
+}
+.button-boxes-product-page .button-boxes-product-pageone .cancelbutton {
+    border: 1px solid #3564f6 !important;
+    color: #3564f6 !important;
+}
+.button-boxes-product-page {
+    margin: 0 auto;
+    text-align: center;
+}
+.button-boxes-product-pagebutton{
+    padding: 10px 22px !important;
+    text-transform: capitalize !important;
+    width: 100% !important;
+    font-size: 15px !important;
+}
+.savebutton {
+    background: #6765f6 !important;
+    color: #fff !important;
+    
+}
+.savebutton:hover{
+    background: #615fe6 !important;
+    color: #fff;
+}
+.ListItem-list-tiemactionlistbutton {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+.jobs-page-section-for-jobes .jobs-page-section-for-jobesgrid .jobs-page-section-for-jobesone {
+    padding-right: 0px;
+}
+.heading-personal-information p {
+    font-weight: 600;
+    padding-top: 10px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.UnAssignedJob-first-heading-buttones {
+    border: 1px solid #f3f4fa !important;
+    padding: 9px 23px !important;
+    font-size: 13px !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+}
+.UnAssignedJobcard-header-sectiongrid .UnAssignedJobcard-header-section .UnAssignedJob-first-heading-listitem .UnAssignedJob-first-heading-button:hover{
+    background-color: transparent !important;
+}
+/* .rightnavigationboxdrawerbutton {
+    font-size: 0;
+} */
+
+.rightnavigationboxdrawerbutton {
+    color: #fff !important;
+    font-size: 11px !important;
+    text-transform: capitalize !important;
+}
+.job-searching-grid .jobsupdating:hover{
+    border: 1px solid #edeff5 !important;
+}
+.rightnavigationboxdrawerbutton:hover{
+background-color: transparent !important;
+}
+.invoing-card-part {
+    background: none;
+    box-shadow: none;
+    width: 100%;
+    display: inline-block;
+    padding: 14px 3px;
+}
